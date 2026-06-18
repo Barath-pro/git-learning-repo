@@ -1,0 +1,32 @@
+i pulled this from my friend barath's main branch by cloning his repository by the follwing commands:
+
+PS G:\VSCode Projects\Barath_Project> git init
+Initialized empty Git repository in G:/VSCode Projects/Barath_Project/.git/
+PS G:\VSCode Projects\Barath_Project> git clone https://github.com/Barath-pro/git-learning-repo.git
+Cloning into 'git-learning-repo'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (5/5), done.
+PS G:\VSCode Projects\Barath_Project> cd git-learning-repo
+PS G:\VSCode Projects\Barath_Project\git-learning-repo> git branch    
+* main
+PS G:\VSCode Projects\Barath_Project\git-learning-repo> git branch -M Anirudhan
+PS G:\VSCode Projects\Barath_Project\git-learning-repo> git branch
+* Anirudhan
+PS G:\VSCode Projects\Barath_Project\git-learning-repo> git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 0), reused 2 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (2/2), 234 bytes | 13.00 KiB/s, done.
+From https://github.com/Barath-pro/git-learning-repo
+ * branch            main       -> FETCH_HEAD
+   aa3e400..1e4093a  main       -> origin/main
+Updating aa3e400..1e4093a
+Fast-forward
+ ex5.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ex5.txt
+PS G:\VSCode Projects\Barath_Project\git-learning-repo>
